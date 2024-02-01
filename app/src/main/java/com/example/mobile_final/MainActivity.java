@@ -1,4 +1,4 @@
-package com.example.mobile_final;
+package com.example.mobile_final.;
 
 import android.os.Bundle;
 import android.view.View;
@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
         mAppBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow)
+                R.id.nav_addLabel, R.id.nav_addPhoto, R.id.nav_gallery, R.id.nav_about, R.id.nav_logOut)
                 .setOpenableLayout(drawer)
                 .build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
